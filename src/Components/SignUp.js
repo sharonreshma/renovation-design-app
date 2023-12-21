@@ -1,20 +1,15 @@
 import React from 'react';
 import { useState } from "react"
-import '../Styles/Login.css';
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import { Link } from 'react-router-dom';
-
-
+import '../Assets/homedec.jpg';
 import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 const Login=()=>{
-    const [action,setAction]=useState("LOGIN");
+    const [action,setAction]=useState("Sign Up");
     return(
-        <div style={{ 
-            backgroundImage: `url("./Assets/homedec.jpg")` 
-          }}>
-            <div className='wrap'>
+        <div>
         <div className='struct'>
             <form action="">
                 <h1>{action}</h1>
@@ -22,24 +17,26 @@ const Login=()=>{
                     <input type="text" placeholder='Username' required/>
                     <FaUser className='icon' />
                 </div>
-                    
+                    <div className="input-box">
+                    <input type="text" placeholder='Email' required/>
+                    <IoIosMail className='icon' />
+                </div>
                 <div className="input-box">
                     <input type="password" placeholder='Password' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required/>
                     <FaLock className='icon'/>
                 </div>
-               <div className="remember-forgot">
+                <div className="remember-forgot">
                     <label><input type="checkbox"/>Remember me</label>
                     <a href="#">Forgot password?</a>
                 </div>
                 <div className="sub-cont">
-                <Button><div className={action==="LOGIN"?"submit gray":"submit"} onClick={()=>{setAction("LOGIN")}}><Link to="/" >LOGIN</Link></div></Button>
+                <Button><div className={action==="SIGN UP"?"submit gray":"submit"} onClick={()=>{setAction("SIGN UP")}}><Link to="/">SIGN UP</Link></div></Button>
                 </div>
                 <div className="reg-link">
-                    <p>Don't have an account?
-                    <Link to="/Signup">Sign Up?</Link></p>
+                    <p>Already have an account?
+                    <Link to="/login"> Login?</Link></p>
                 </div>
             </form>
-            </div>
         </div>
         </div>
     );
