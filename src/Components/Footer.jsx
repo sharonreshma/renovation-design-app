@@ -34,16 +34,16 @@ const footers = [
   {
     title: 'Features',
     description: [
-      'Cool stuff',
-      'Random feature',
-      'Team feature',
-      'Developer stuff',
-      'Another one',
+      'Customize',
+      'Designing',
+      'Furnitures',
+      'Decors',
+      'Renovation',
     ],
   },
   {
     title: 'Resources',
-    description: ['Resource', 'Resource name', 'Another resource', 'Final resource'],
+    description: ['Source', 'About', 'randd@gmail.com', 'sampleus@gmail.com'],
   },
   {
     title: 'Legal',
@@ -53,7 +53,7 @@ const footers = [
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
-export default function Pricing() {
+export default function Footer() {
   return (
     <ThemeProvider theme={defaultTheme}>
       

@@ -9,6 +9,7 @@ import PricingPlan from './Components/Pricing.jsx';
 import Footer from './Components/Footer.jsx';
 import SignUp from './Components/SignUp.js'
 import Login from './Components/Login.js';
+import Services from './Components/Services.jsx';
 import './App.css';
 import Navbar from './Components/Navbar.js';
 import Pricing from './Components/Pricing.jsx';
@@ -28,11 +29,6 @@ function App() {
     <Route path="/Home" element={<Footer />} ></Route> */}
      </Routes>
      </BrowserRouter>
-    <About/>
-    <Contact/>
-    <Work/>
-    <Pricing/>
-    <Footer/>
 
     </div>
   );

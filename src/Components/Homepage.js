@@ -3,6 +3,12 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import '../Styles/Homepage.css';
 import Navbar from "./Navbar";
+import About from "./About";
+import Work from "./Work";
+import Services from "./Services";
+import Pricing from "./Pricing";
+import Footer from "./Footer";
+import Contact from "./Contact";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
@@ -28,7 +34,24 @@ const Home = () => {
           <img src={BannerImage} alt="" />
         </div>
       </div>
+      <section id="abt">
+      <About/>
+      </section>
+      <section id="ww">
+      <Work/>
+      </section>
+      <section id="ser">
+      <Services/>
+      </section>
+      <section id="pr">
+      <Pricing/>
+      </section>
+      <section id="con">
+      <Contact/>
+      <Footer/>
+      </section>
     </div>
+    
   );
 };
 

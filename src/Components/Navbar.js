@@ -22,6 +22,10 @@ const Navbar = () => {
   const menuOptions = [
     
     {
+      text: "R&D",
+      icon: <HomeIcon />,
+    },
+    {
       text: "Home",
       icon: <HomeIcon />,
     },
@@ -30,7 +34,7 @@ const Navbar = () => {
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Services",
       icon: <CommentRoundedIcon />,
     },
     {
@@ -47,10 +51,10 @@ const Navbar = () => {
       
       <div className="navbar-links-container">
         <a href="./Components/Home">Home</a>
-        <a href="./Components/About">About</a>
-        <a href="./Components/Work">Latest</a>
-        <a href="./Components/Contact">Contact</a>
-        <a href="./Components/Pricing">
+        <a href="#abt"> About</a> 
+        <a href="#ser">Service</a>
+        <a href="#con">Contact</a>
+        <a href="#pr">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button"><Link to="/Signup">Sign Up</Link></button>
@@ -79,6 +83,7 @@ const Navbar = () => {
         </Box>
       </Drawer>
     </nav>
+
   );
 };
 
