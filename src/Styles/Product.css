@@ -1,5 +1,5 @@
-  .work-section-wrapper {
-    background-color:#EBF5FB ;
+.work-section-wrapper {
+    background-color:white;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
@@ -28,7 +28,7 @@
     text-align: center;
     border-radius: 1rem;
     color: #505050;
-    margin: 1rem 2rem;
+    margin: 1rem 2rem;border: 0 5px 15px rgba(0, 0, 0, 0.8);
   }
   .work-section-info:hover{
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
@@ -38,7 +38,6 @@
   }
   .work-section-bottom {
     margin-top: 5rem;
-    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,22 +51,20 @@
     
   }
   .learnmore{
-    width: 350px;
-    height: 50px;
-    background-color:black;
+    width: 100px;
+    height: 45px;
+    background-color:whitesmoke;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,-1);
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgba(214, 163, 100, 0.932);
     font-weight: 700;
-    margin-left: 540px;
-    margin-top: 30px;
   }
   
   

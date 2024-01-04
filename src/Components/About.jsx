@@ -5,7 +5,6 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 import Navbar from "./Navbar";
 const About = () => {
   return (
-    <div id="abt">
     <div className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
@@ -25,13 +24,13 @@ const About = () => {
         With a blend of creativity, attention to detail, and a commitment to surpassing expectations, our team enables you to explore the intersection of style and functionality with us!
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button"><a href="#ser">Learn More</a></button>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
           </button>
         </div>
       </div></div>
-    </div>
+  
   );
 };
 

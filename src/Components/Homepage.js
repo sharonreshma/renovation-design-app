@@ -9,6 +9,9 @@ import Services from "./Services";
 import Pricing from "./Pricing";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Product from "./Product";
+import Prod from "./Prod";
+import Bpro from "./Bpro";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
@@ -26,8 +29,8 @@ const Home = () => {
           <p className="primary-text">
           Design dreams made into reality.Your personality is now our expertise.Bringing out the unique interior designs out there for you, to help you experience the joy of living.
           </p>
-          <button className="secondary-button">
-            Explore More <FiArrowRight />{" "}
+          <button className="secondary-button"><a href="#pr">
+            Explore More </a><FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">
@@ -43,8 +46,19 @@ const Home = () => {
       <section id="ser">
       <Services/>
       </section>
+
       <section id="pr">
       <Pricing/>
+      </section>
+      <section id="pro">
+      <Product/>
+      </section>
+      <section id="bpp">
+      <Bpro/>
+      </section>
+  
+      <section id="pp">
+      <Prod/>
       </section>
       <section id="con">
       <Contact/>

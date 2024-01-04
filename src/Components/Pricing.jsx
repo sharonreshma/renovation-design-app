@@ -32,10 +32,7 @@ export default function PricingPlan() {
             </p>
           </div>
           <div className="getStarted">
-            <button>
-              Get Started{" "}
-              <BsArrowRight style={{ color: "#292F36", marginLeft: "2%" }} />
-            </button>
+            
           </div>
         </div>
         <div className="second plan">
@@ -56,10 +53,7 @@ Garages organization
             </p>
           </div>
           <div className="getStarted">
-            <button>
-              Get Started{" "}
-              <BsArrowRight style={{ color: "#cda274", marginLeft: "2%" }} />
-            </button>
+            
           </div>
         </div>
         <div className="third plan">
@@ -80,10 +74,7 @@ Kitchens
             </p>
           </div>
           <div className="getStarted">
-            <button>
-              Get Started{" "}
-              <BsArrowRight style={{ color: "#292F36", marginLeft: "2%" }} />
-            </button>
+            
           </div>
         </div>
       </div>

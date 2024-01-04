@@ -22,7 +22,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" style={{backgroundColor:"#EBF5FB"}}>
       <div className="work-section-top">
         <p className="primary-subheading">Trending</p>
         <h1 className="primary-heading">Best Choices</h1>

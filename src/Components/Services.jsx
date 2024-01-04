@@ -41,7 +41,7 @@ const Services = () => {
       },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" style={{backgroundColor:"#E5D3B3"}}>
       <div className="work-section-top">
         <h1 className="primary-subheading">SERVICES</h1>
         <p className="primary-text">
@@ -56,15 +56,15 @@ const Services = () => {
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
-            <div className="learnmore">
-           <center><button>
-              Get Started{" "}
-            </button></center>
-            </div>
+            
           </div>
         ))}
-        
       </div>
+
+        <button className="learnmore"><a href="#pro">
+            Explore More </a>{" "}
+          </button>
+            
     </div>
   );
 };
