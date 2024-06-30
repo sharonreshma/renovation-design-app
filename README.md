@@ -29,6 +29,3 @@ This application revolutionizes the interior design and renovation process by in
   
 - **JavaScript**: Programming language used for implementing interactive features and dynamic behavior within the application.
 
----
-
-This README provides a comprehensive overview of an interior and renovation website designed using React, highlighting its features, technology stack, and future development directions. 
